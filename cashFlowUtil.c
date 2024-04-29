@@ -112,7 +112,7 @@ struct Pair getMaxIndex(struct bank listofNetAmounts[], int numBanks, int minInd
 
         setIntersection(&listofNetAmounts[minIndex].types, &listofNetAmounts[i].types, &res);
 
-        if (max < listofNetAmounts[i].netAmount)
+        if ( res.size != 0 && max < listofNetAmounts[i].netAmount)
         {
             max = listofNetAmounts[i].netAmount;
             maxIndex = i;
