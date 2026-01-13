@@ -43,7 +43,7 @@ When multiple banks owe each other money, the naive way is to execute each trans
 
 ```
 4
-worldbank 2 UPI NEFT
+worldbank 2 UPI NEFT.
 BankA 1 UPI
 BankB 1 NEFT
 BankC 1 RTGS
